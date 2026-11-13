@@ -1,0 +1,19 @@
+# secrets
+.env
+*.env
+!deploy/*.env.example
+# runtime data (journal, market data, backups, switches, reports)
+var/
+# owner-private notes
+docs/private/
+# python / tooling
+__pycache__/
+*.pyc
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+
+.claude/
